@@ -1,3 +1,12 @@
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+.btn:hover {
+    background: transparent;
+}
+:where(.menu li:not(.menu-title):not(.disabled) > *:not(ul):not(details):not(.menu-title)):not(.active):hover, :where(.menu li:not(.menu-title):not(.disabled) > details > summary:not(.menu-title)):not(.active):hover {
+    background: transparent;
+}
+.input:focus {
+    outline: none;
 }
