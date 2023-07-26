@@ -91,3 +91,24 @@ p{
     background-color: #000;
     z-index: -1;
 }
+hr{
+    height: 1px;
+    width: 100px;
+    color: #1212121A;
+}
+footer ul li> a{
+    color: #fff;
+}
+footer ul li> a:hover{
+    color: #e64043;
+}
+.mobile-sear>input{
+    width: 80%;
+}
+.mobile-search{
+    right: 0px;
+}
+.menu li > *:not(ul):not(details):active, .menu li > *:not(ul):not(details).active, .menu li > details > summary:active {
+    --tw-bg-opacity: 1;
+    background-color: transparent;
+}
