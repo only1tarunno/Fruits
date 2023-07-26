@@ -10,3 +10,63 @@
 .input:focus {
     outline: none;
 }
+h2{
+    color: #121212;
+    font-weight: 700;
+}
+p{
+    color: #12121299;
+    font-weight: 400;
+    font-size: 16px;
+}
+.cs-btn{
+    border-radius: 8px;
+    background: #F85559;
+    border: 1px solid #F85559;
+    padding: 16px 30px;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.cs-btn:hover{
+    background: #e64043;
+    border: 1px solid #F85559;
+}
+.cs-btn-secondary{
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #F85559;
+    padding: 16px 30px;
+    color: #F85559 !important;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.cs-btn-secondary:hover{
+    color: #fff !important;
+    background: #e64043;
+    border: 1px solid #F85559;
+}
+.btn-circle, .btn-circle:hover{
+    background: #121212;
+    color: #fff;
+    border-color: #121212;
+}
+.hero-overlay {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+}
+.btn-ghost{
+    padding: 0;
+}
+.card-body span{
+    height: 1px;
+    width: 244px;
+    background-color: #1212121A;
+    margin: 0 auto ;
+}
